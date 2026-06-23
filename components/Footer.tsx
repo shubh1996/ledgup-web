@@ -14,6 +14,9 @@ export default function Footer() {
         </p>
 
         <div className="flex items-center gap-5">
+          <a href="/pricing" className="text-brand-subtle text-sm hover:text-white transition-colors">
+            Pricing
+          </a>
           <a href="/privacy" className="text-brand-subtle text-sm hover:text-white transition-colors">
             Privacy
           </a>
