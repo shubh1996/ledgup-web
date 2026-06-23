@@ -14,7 +14,7 @@ const features = [
 
 export const metadata = {
   title: "Pricing — LedgUp",
-  description: "₹49/month for full access to LedgUp. No ads, no data selling.",
+  description: "₹99/month for full access to LedgUp. No ads, no data selling.",
 };
 
 export default function PricingPage() {
@@ -51,7 +51,7 @@ export default function PricingPage() {
 
           {/* Price */}
           <div className="flex items-end gap-2 mb-1">
-            <span className="text-5xl font-bold text-white">₹49</span>
+            <span className="text-5xl font-bold text-white">₹99</span>
             <span className="text-brand-muted text-base mb-2">/month</span>
           </div>
           <p className="text-brand-subtle text-sm mb-8">
@@ -82,7 +82,7 @@ export default function PricingPage() {
           {[
             {
               q: "When will I be charged?",
-              a: "Your free trial runs first. After it ends, your subscription starts at ₹49/month.",
+              a: "Your free trial runs first. After it ends, your subscription starts at ₹99/month.",
             },
             {
               q: "Can I cancel?",

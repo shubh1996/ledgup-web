@@ -55,7 +55,7 @@ export default function SubscribeButton() {
       key: data.key_id,
       subscription_id: data.subscription_id,
       name: "LedgUp",
-      description: "Monthly Subscription — ₹49/month",
+      description: "Monthly Subscription — ₹99/month",
       image: "/icon.png",
       prefill: { name, email },
       theme: { color: "#E3C77D" },
@@ -86,7 +86,7 @@ export default function SubscribeButton() {
         onClick={() => setStep("form")}
         className="bg-brand-gold text-brand-bg font-semibold px-8 py-3.5 rounded-xl hover:opacity-90 transition-opacity text-base"
       >
-        Subscribe — ₹49/month
+        Subscribe — ₹99/month
       </button>
     );
   }
@@ -113,7 +113,7 @@ export default function SubscribeButton() {
         disabled={step === "loading" || !email}
         className="w-full bg-brand-gold text-brand-bg font-semibold py-3.5 rounded-xl hover:opacity-90 transition-opacity disabled:opacity-50 text-sm"
       >
-        {step === "loading" ? "Opening checkout…" : "Pay ₹49/month"}
+        {step === "loading" ? "Opening checkout…" : "Pay ₹99/month"}
       </button>
       <button
         onClick={() => setStep("idle")}
